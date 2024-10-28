@@ -42,7 +42,7 @@ if (!SpeechRecognition) {
     };
 
     async function interpretCommand(transcript) {
-        const openaiApiKey = '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'; // Replace with your actual API key
+        const openaiApiKey = 'API KEY HERE'; // Replace with your actual API key
         debugger;
         const messages = [
             { role: "system", content: "You are a helpful assistant that classifies commands for a physician based on voice input." },
