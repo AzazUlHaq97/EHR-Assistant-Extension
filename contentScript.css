@@ -1,0 +1,10 @@
+/* contentScript.css */
+
+/* Example styles to enhance the appearance */
+#floatingMicIcon {
+    transition: opacity 0.2s;
+  }
+  
+  #floatingMicIcon:hover {
+    opacity: 0.8;
+  }
